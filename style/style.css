@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Цвета*/
+/*header*/
+.header {
+  background-color: #5d5d5d;
+  height: 65px;
+  width: 100%;
+}
+.header .nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: azure;
+  margin: 8px 15px;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  text-transform: uppercase;
+}
+.header .menu-li {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 15px;
+  list-style: none;
+}
+.header .menu-li .link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: azure;
+  text-decoration: none;
+  margin: 10px;
+}
+/*основное*/
+.main {
+  padding: 250px 30px;
+  background: url('/img/fon2.jpg') center no-repeat;
+  background-size: cover;
+  background-color: #918e8e;
+}
+.main h2 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: azure;
+}
+.main p {
+  color: azure;
+}
+.main-btn {
+  margin: 20px ;
+  background-color: #403c3c;
+  color: azure;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.hello {
+  text-align: center;
+  margin-top: 20px;
+  background-size: cover;
+  padding: 50px 50px 15px;
+}
+.hello-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #403c3c;
+}
+.hello-cars {
+  margin-top: 20px;
+}
+.hello-cars img {
+  max-width: 300px;
+  min-height: 250px;
+  margin: 10px 10px;
+}
+.hello-btn {
+  margin: 40px 40px 20px;
+  background-color: #403c3c;
+  color: azure;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.info {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  background-color: #5d5d5d;
+  color: azure;
+}
+.info-block {
+  margin-top: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+.info img {
+  width: 85px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.info p {
+  text-align: justify;
+}
+.facts {
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.facts-block {
+  margin-top: 45px;
+  width: 30%px;
+}
+.facts-block h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.facts-block p {
+  font-size: 15px;
+}
+.dop {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dop img .sell-avto {
+  max-width: 300px;
+  padding-top: 20px;
+  height: 100%;
+  margin-top: 60px;
+}
+.dop-intresting {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: #1e2d71;
+  border: 1px solid #5d5d5d;
+}
+.dop-intresting h3 {
+  font-size: 15px;
+}
+.dop-intresting img {
+  width: 40px;
+  height: 40px;
+}
+.feedback {
+  padding: 50px;
+  background-color: #5d5d5d;
+  color: azure;
+}
+.feedback h2 {
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.feedback-slider {
+  margin-top: 35px;
+  /*слайдер*/
+}
+.feedback-slider p {
+  text-align: justify;
+  padding: 5px 10px;
+}
+.feedback-slider p .span {
+  display: block;
+  font-weight: 700;
+  text-align: end;
+}
+.feedback-slider .arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.feedback-slider .prev {
+  left: 0;
+  background: url(..//7/img/l.svg) center no-repeat;
+  background-size: 80%;
+}
+.feedback-slider .next {
+  right: 0;
+  background: url(..//7/img/r.svg) center no-repeat;
+  background-size: 80%;
+}
+.our {
+  margin: 30px 20px;
+  text-align: center;
+}
+.our h2 {
+  margin: 25px 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.our img {
+  margin: 20px 15px;
+  width: 370px;
+  height: 280px;
+}
+.our .tell-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.our .tell-btn img {
+  width: 30px;
+  height: 30px;
+  margin: 35px 15px;
+}
+.our .tell-btn .our-btn {
+  display: block;
+  padding: 5px 10px;
+  background-color: #403c3c;
+  color: azure;
+  border-radius: 8px;
+}
+.contacts {
+  text-align: center;
+  text-transform: uppercase;
+}
+.contacts p {
+  margin: 10px;
+}
+.contacts .end img {
+  width: 450px;
+  height: 300px;
+}
+.popup {
+  position: relative;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  border-radius: 10px;
+  background-image: url(/img/car4.jpg);
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  padding: 1rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+.popup-close {
+  position: absolute;
+  top: -10%;
+  right: -30px;
+  cursor: pointer;
+  border: none;
+  width: 20px;
+  font-size: 30px;
+  color: #fff;
+  background: transparent;
+}
+.popup-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.popup p {
+  font-size: 14px;
+  color: #1e2d71;
+  font-weight: 800;
+}
+.popup-form {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 40px;
+  background-color: #fff;
+  background: transparent;
+  /*поле для ввода*/
+  /*подписи к полям*/
+}
+.popup-form form {
+  text-align: center;
+  padding: 0;
+}
+.popup-form-input,
+.popup-form textarea {
+  display: block;
+  text-align: center;
+  border: 1px solid #5d5d5d;
+  padding: 20px 57px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  color: #5d5d5d;
+}
+.popup-form label {
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  left: 40%;
+  transform: translateX(-70%) translateY(-50%);
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .header .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .nav .logo {
+    text-align: center;
+  }
+  .header .nav .menu .menu-li {
+    margin-top: 5px;
+    text-align: center;
+  }
+  .main h2 {
+    display: block;
+    text-align: center;
+  }
+  .main p {
+    text-align: center;
+  }
+  .main-btn {
+    text-align: center;
+  }
+  .facts {
+    text-align: center;
+  }
+}
